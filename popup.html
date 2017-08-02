@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="stylesheet" type="text/css" href="popup.css">
+</head>
+
+<body>
+  <div>
+    <form id="form1">
+      Stream:<br>
+      <input type="text" name="streamChoice" id="streamChoice"><br>
+    </form>
+    <button id="streamButton">Set Stream</button>
+    <br>
+  </div>
+  <br>
+  <div>
+  <form id="form2">
+  Clip source:<br>
+  <input type="text" name="clipChoice" id="clipChoice"><br>
+  </form>
+  <button id="clipButton">Set Clip Source</button>
+ 
+ <br>
+ <form id ="clipType">
+  Is clip source a game or channel?<br>
+  <input type="radio" name="clipRadio" value="game"> game<br>
+  <input type="radio" name="clipRadio" value="channel"> channel<br>
+</form>
+  <button id="clipButton2">Set</button>
+</div>
+ <br>
+ 
+<div> 
+ <br>
+ <form>
+ <input type="checkbox" id="toggle"> Clip Mode<br>
+ </form>
+
+
+<p id ="currentStream"></p>
+<p id ="currentClipSource"></p>
+</div>
+
+  <script type="text/javascript" src="popup.js"></script>
+
+</body>
+</html>

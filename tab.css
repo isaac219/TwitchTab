@@ -1,0 +1,29 @@
+body {
+    font-family: Verdana;
+}
+table {
+    border-spacing: 20px 15px;
+    table-layout: fixed;
+}
+td {
+    width: 200px;
+    height: 50px;
+    overflow: hidden;
+    border-style: solid;
+    table-layout: fixed;
+}
+.center {
+    text-align: center;
+}
+a {
+    color: black;
+    text-decoration: underline;
+    text-align: center;
+}
+a:hover {
+    color: blue;
+    font-size: 105%;
+}
+p {
+    font-size: 200%;
+}
